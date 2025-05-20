@@ -1,0 +1,35 @@
+Task: Build a Weather and News Aggregator App with Weather-Based News
+Filtering
+Objective: Develop an app using Flutter and Dart that fetches and displays weather information
+and news headlines using publicly available APIs. The app should include a unique logic to filter
+news based on the weather.
+Requirements:
+1. User Interface:
+○ A home screen displaying weather information and news headlines.
+○ A settings screen where users can manage their preferences.
+2. Features:
+○ Weather Information:
+■ Fetch current weather data based on the user's location.
+■ Display temperature, weather conditions, and a five-day forecast.
+■ Use a publicly available weather API (e.g., OpenWeatherMap API).
+○ News Headlines:
+■ Fetch the latest news headlines.
+■ Display headlines, brief descriptions, and links to full articles.
+■ Use a publicly available news API (e.g., NewsAPI).
+○ Weather-Based News Filtering:
+■ Implement logic to filter news based on the current weather:
+■ If the weather is cold, show only depressing news headlines.
+■ If the weather is hot, show news articles related to fear.
+■ If the weather is cool, show news articles about winning and
+happiness.
+○ Settings:
+■ Allow users to select their preferred units for temperature
+(Celsius/Fahrenheit).
+■ Enable users to select news categories they are interested in.
+3. Technical Specifications:
+○ Use Flutter for front-end development.
+○ Use Dart as the programming language.
+○ State management using Provider or Riverpod.
+○ Fetch weather data using the OpenWeatherMap API.
+○ Fetch news headlines using the NewsAPI.
+○ Ensure the app has a responsive design to support different screen sizes.
